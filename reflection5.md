@@ -1,0 +1,5 @@
+WEEK 5 Reflection
+
+Last week, I completed and tested the DynamicArray class, and I felt confident in both the structure and quality of my code. I implemented all required methods (indexOf, contains, countOf, remove(int), remove(String), and toString()) using clean, modular logic, avoided redundancy by reusing methods like indexOf(). i also followed class rules like avoiding == with objects, using constants instead of magic values, and commenting consistently. My implementation passed all of the professor’s tests, which was a rewarding moment. Compared to the professor’s placeholder version, mine includes full functionality, better readability, and thoughtful design choices like backward element shifting in remove() and use of StringBuilder in toString(). This project showed me how much I’ve grown: I now write more intentionally, debug more efficiently, and think in terms of design, not just functionality.
+
+With the holiday and traveling home it sucks how behind I am for school and work.

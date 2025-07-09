@@ -173,4 +173,24 @@ public class DynamicArray {
         return sb.toString();
     } // method toString
 
+/**
+     * Accessor to retrieve an element at a specific index.
+     * Returns null if the index is out of bounds.
+     */
+    public String get(int index) { // 
+        if (index >= 0 && index < this.occupancy) { //
+            return this.underlying[index]; //
+        } else { //
+            return null; //
+        } 
+    } // method Needed for peek() and pop() in Queue
+
+    /**
+     * Returns the number of elements currently stored in the array.
+     * Equivalent to getOccupancy().
+     */
+    public int size() { //
+        return this.occupancy; //
+    } // method size -Needed for compareTo and control flow in Queue
+
 } // class DynamicArray
